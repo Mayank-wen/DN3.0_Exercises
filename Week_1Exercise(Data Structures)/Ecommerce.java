@@ -1,15 +1,4 @@
-// ### 1. Understand Asymptotic Notation
 
-// **Big O Notation:**
-
-// - **Definition:** Describes the upper bound of an algorithm's running time, indicating the worst-case scenario as input size grows.
-// - **Purpose:** Helps understand algorithm scalability and compare performance.
-
-// **Search Operation Scenarios:**
-
-// - **Best Case:** Fastest scenario (e.g., finding the first element).
-// - **Average Case:** Expected time considering all cases.
-// - **Worst Case:** Slowest scenario (e.g., element not found).
 
 // ### Setup
 import java.util.Arrays;
@@ -100,12 +89,7 @@ public class Ecommerce {
         System.out.println("Binary Search Result: " + result2);
     }
 }
-
-// ### 4. Analysis
-
-// **Time Complexity Comparison:**
-// - **Linear Search:** O(n) - Checks each element until the target is found or the array ends.
-// - **Binary Search:** O(log n) - Divides the array in half each time, reducing search space quickly.
+.
 
 // **Suitability for Platform:**
 // - **Linear Search:** Good for small or unsorted datasets; simple but inefficient for large datasets.
