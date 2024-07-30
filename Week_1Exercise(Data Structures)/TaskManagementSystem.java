@@ -95,13 +95,4 @@ public class TaskManagementSystem {
         taskMgmt.traverseTasks();
     }
 }
-    // Step 4: Analysis
-    // Time Complexity:
-    // - Add Task: O(n) - Traverses to the end of the list.
-    // - Search Task: O(n) - Linear search through the list.
-    // - Traverse Tasks: O(n) - Visits each node once.
-    // - Delete Task: O(n) - Linear search to find the task, then adjusts pointers.
-
-    // Advantages of Linked Lists Over Arrays:
-    // - Dynamic Size: Easily grows or shrinks with the number of tasks.
-    // - Efficient Insertions/Deletions: Insertion and deletion are more efficient compared to arrays, especially when dealing with large datasets
+  
