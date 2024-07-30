@@ -1,11 +1,4 @@
-//#### 1. Understand Sorting Algorithms
 
-// Bubble Sort: O(n²) - Repeatedly swaps adjacent elements until sorted. Inefficient for large datasets.
-// Insertion Sort: O(n²) - Inserts elements into their correct position in a sorted part. Similar inefficiency to Bubble Sort.
-// Quick Sort: O(n log n) - Divides and conquers using a pivot. Efficient for large datasets.
-// Merge Sort: O(n log n) - Divides and merges sorted halves. Consistently efficient.
-
-//#### 2. Setup
 
 import java.util.Arrays;
 
@@ -115,15 +108,3 @@ public class SortingCustomerOrder {
         }
     }
 }
-// ## 4 Analysis:
-
-// Time Complexity Comparison:
-
-// Bubble Sort: O(n²) - Inefficient for large datasets due to repeated comparisons and swaps.
-// Quick Sort: O(n log n) - More efficient due to its divide-and-conquer approach, even with large datasets.
-// Why Quick Sort is Preferred:
-
-// Efficiency: Quick Sort has a significantly better average-case time complexity (O(n log n)) compared to Bubble Sort (O(n²)).
-// Scalability: Quick Sort performs well with large datasets and is often used in practice for its speed and efficiency.
-
-// By using Quick Sort, you can efficiently sort customer orders by their total price, making it ideal for handling large volumes of data on an e-commerce platform.
