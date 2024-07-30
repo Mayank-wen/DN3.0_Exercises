@@ -1,12 +1,4 @@
 
-// Step 1: Understanding Search Algorithms
-// Linear Search:
-// - Time Complexity: O(n) - Each element is checked sequentially until the target is found or the end is reached.
-// - Suitable for: Unsorted or small datasets.
-
-// Binary Search:
-// - Time Complexity: O(log n) - The search space is divided in half each time, reducing the search space logarithmically.
-// - Suitable for: Large, sorted datasets.
 
 import java.util.Arrays;
 
@@ -116,12 +108,3 @@ public class LibraryManagementSystem {
         System.out.println(book);
     }
 }
-
-    // Step 4: Analysis
-    // Time Complexity:
-    // - Linear Search: O(n) - Searches through each element sequentially.
-    // - Binary Search: O(log n) - Efficient for sorted arrays.
-
-    // Use Cases:
-    // - Linear Search: Ideal for unsorted or small datasets.
-    // - Binary Search: Ideal for large, sorted datasets to leverage faster search time
