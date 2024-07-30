@@ -1,11 +1,4 @@
-// Why Data Structures and Algorithms are Essential in Handling Large Inventories?
-
-// 1. **Efficient Data Storage and Retrieval:** Ensures quick access, insertion, and deletion operations.
-// 2. **Scalability:** Maintains performance as the inventory size increases.
-// 3. **Memory Management:** Optimizes memory usage to handle large datasets.
-// 4. **Data Integrity and Consistency:** Ensures reliable updates and operations.
-// 5. **Fast Search Operations:** Provides quick search capabilities, crucial for large inventories.
-// 6. **Handling Concurrent Operations:** Supports multiple users accessing and modifying the inventory simultaneously.
+.
 import java.util.HashMap;
 
 // Define the Product class
@@ -118,19 +111,7 @@ public class InventoryManagementSystem {
     }
 }
 
-// ###Analysis
 
-// Time Complexity:
-
-// Add Product: O(1)
-// Update Product: O(1)
-// Delete Product: O(1)
-
-// ###Optimization:
-
-// Load Factor Management: Ensure proper load factor to maintain constant-time
-// complexity.
-// Concurrency Handling: Use ConcurrentHashMap for simultaneous access and
 // modifications.
 // Garbage Collection: Clean up unused entries to optimize memory usage.
 
