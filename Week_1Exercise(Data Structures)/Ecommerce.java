@@ -91,8 +91,3 @@ public class Ecommerce {
 }
 .
 
-// **Suitability for Platform:**
-// - **Linear Search:** Good for small or unsorted datasets; simple but inefficient for large datasets.
-// - **Binary Search:** Ideal for large, sorted datasets; offers better performance with logarithmic time complexity.
-
-// **Recommendation:** Use binary search for large, sorted inventories to ensure efficient performance on an e-commerce platform.
