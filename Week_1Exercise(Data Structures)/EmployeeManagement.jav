@@ -109,17 +109,3 @@ public class EmployeeManagement {
     }
 }
 
-    // Step 4: Analysis
-    // Time Complexity:
-    // - Add Employee: O(1) - Directly adds to the end if space is available.
-    // - Search Employee: O(n) - Linear search through the array.
-    // - Traverse Employees: O(n) - Visits each element once.
-    // - Delete Employee: O(n) - Linear search to find the element, followed by shifting elements.
-
-    // Limitations of Arrays:
-    // - Fixed Size: The size of an array is static, meaning it can't be resized dynamically.
-    // - Inefficient Operations: Insertion and deletion can be inefficient as they may require shifting elements.
-
-    // When to Use Arrays:
-    // - Small, Fixed-Size Datasets: Arrays work well when the number of elements is known and not too large.
-    // - Simple Implementation: Useful for straightforward applications where complex dynamic resizing isn't needed
