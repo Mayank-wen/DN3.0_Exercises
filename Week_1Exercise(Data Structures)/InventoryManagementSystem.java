@@ -112,8 +112,4 @@ public class InventoryManagementSystem {
 }
 
 
-// modifications.
-// Garbage Collection: Clean up unused entries to optimize memory usage.
 
-// Using a HashMap ensures efficient handling of large inventories with
-// constant-time operations, making the system scalable and performant
